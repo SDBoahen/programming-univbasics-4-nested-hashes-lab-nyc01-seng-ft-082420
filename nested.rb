@@ -25,6 +25,8 @@ def
       :languages => ["C"]
     }
   }
+  
+  programmer_hash[]
 
 end
 
