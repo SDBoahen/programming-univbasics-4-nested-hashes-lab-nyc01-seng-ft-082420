@@ -51,6 +51,8 @@ def alan_kay_is_known_for
         :languages => ["C"]
       }
     }
+    
+    programmer_hash[:alan_kay]
 
 end
 
@@ -73,19 +75,23 @@ def dennis_ritchies_language
         :languages => ["C"]
       }
     }
+    
+    programmer_hash[:dennis_ritchie]
 
 end
 
 
 
 
-def adding_matz
 # add the following information to the top level of programmer_hash
 # :yukihiro_matsumoto => {
 #   :known_for => "Ruby",
 #   :languages => ["LISP", "C"]
 # }
 # return the entire updated hash
+
+def adding_matz
+
 
 	programmer_hash = 
  		{
@@ -102,6 +108,9 @@ def adding_matz
         :languages => ["C"]
       }
     }
+    
+    
+    programmer_hash[:yukihiro_matsumoto]
 
 end
 
