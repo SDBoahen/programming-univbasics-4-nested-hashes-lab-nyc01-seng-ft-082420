@@ -94,7 +94,13 @@ def adding_matz
 
 
 	programmer_hash = 
- 		{
+		{
+		  
+		  :yukihiro_matsumoto => {
+      :known_for => "Ruby",
+      :languages => ["LISP", "C"]
+      },
+ 		  
       :grace_hopper => {
         :known_for => "COBOL",
         :languages => ["COBOL", "FORTRAN"]
@@ -110,9 +116,10 @@ def adding_matz
     }
   
     
-    programmer_hash[:yukihiro_matsumoto] = { }
+    # # x-x
+    # programmer_hash[:yukihiro_matsumoto] = { }
     
-    programmer_hash[:yukihiro_matsumoto] << { :known_for => "Ruby" , :languages => ["LISP", "C"] }
+    # programmer_hash[:yukihiro_matsumoto] << { :known_for => "Ruby" , :languages => ["LISP", "C"] }
       
       
     programmer_hash
